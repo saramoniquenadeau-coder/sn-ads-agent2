@@ -68,3 +68,15 @@ def generate_organic_content(brief: dict) -> dict:
         "caption": body,
         "cta": cta
     }
+brief = load_json("sample_brief.json")
+
+result = generate_organic_content(brief)  # ton texte
+
+if brief.get("images", {}).get("provider") == "kie.ai":
+    urls = generate_images_with_kie(brief["images"])
+    result["images"] = {
+        "provider": "kie.ai",
+        "result_urls": urls
+    }
+
+print(json.dumps(result, indent=2, ensure_ascii=False))
