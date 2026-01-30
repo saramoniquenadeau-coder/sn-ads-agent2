@@ -6,3 +6,26 @@
   "tone": "Clinical, calm, reassuring"
 }
 "format": "educational"
+{
+  "platform": "Instagram",
+  "type": "organic",
+  "brand": "SN Soins Infirmiers",
+  "objective": "Carrousel éducatif",
+  "topic": "Prévenir les urgences à domicile",
+  "images": {
+    "provider": "kie.ai",
+    "mode": "img2img",
+    "anchor_url": "PASTE_RAW_GITHUB_IMAGE_URL_HERE",
+    "count": 5,
+    "aspect_ratio": "1:1",
+    "quality": "high",
+    "style_rules": "realistic, professional, clinical, warm, calm, no text, no logo",
+    "scenes": [
+      "Nurse arriving at home with medical bag",
+      "Checking blood pressure at home",
+      "Explaining care plan to caregiver at kitchen table",
+      "Teaching medication organization with pillbox",
+      "Reassuring closing moment, calm evening light"
+    ]
+  }
+}
