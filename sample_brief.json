@@ -1,15 +1,10 @@
 {
   "brand": "SN Soins Infirmiers",
-  "platform": "Facebook",
-  "content_type": "organic",
-  "audience": "Adult children caring for aging parents",
-  "tone": "Clinical, calm, reassuring"
-}
-"format": "educational"
-{
   "platform": "Instagram",
-  "type": "organic",
-  "brand": "SN Soins Infirmiers",
+  "content_type": "organic",
+  "format": "educational",
+  "audience": "Enfants adultes qui s'occupent d'un parent âgé",
+  "tone": "Clinique, calme, humain, rassurant",
   "objective": "Carrousel éducatif",
   "topic": "Prévenir les urgences à domicile",
   "images": {
